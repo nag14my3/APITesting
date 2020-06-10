@@ -1,0 +1,27 @@
+INFO:root:Test Session has Started
+INFO:root:GET Method status code is 200 & ID value is asserted
+INFO:root:PUT Method status code is 201 & Json Values are read to the file
+INFO:root:POST Method status code is 201 & Json Values are read to the file
+INFO:root:DELETE Method status code is 201 & Json Values are read to the file
+DEBUG:pip._vendor.urllib3.connectionpool:Starting new HTTPS connection (1): reqres.in:443
+DEBUG:pip._vendor.urllib3.connectionpool:https://reqres.in:443 "GET /api/users?page=2 HTTP/1.1" 200 None
+DEBUG:pip._vendor.urllib3.connectionpool:Starting new HTTPS connection (1): reqres.in:443
+DEBUG:pip._vendor.urllib3.connectionpool:https://reqres.in:443 "POST /api/users HTTP/1.1" 201 78
+DEBUG:pip._vendor.urllib3.connectionpool:Starting new HTTPS connection (1): reqres.in:443
+DEBUG:pip._vendor.urllib3.connectionpool:https://reqres.in:443 "PUT /api/users/2 HTTP/1.1" 200 None
+DEBUG:pip._vendor.urllib3.connectionpool:Starting new HTTPS connection (1): reqres.in:443
+DEBUG:pip._vendor.urllib3.connectionpool:https://reqres.in:443 "DELETE /api/users/2 HTTP/1.1" 204 0
+2020-06-10:22:58:25,765 INFO     [test_Methods.py:11] Test Session has Started
+2020-06-10:22:58:25,765 INFO     [test_Methods.py:23] GET Method status code is 200 & ID value is asserted
+2020-06-10:22:58:25,765 INFO     [test_Methods.py:37] POST Method status code is 201 & Json Values are read to the post output file
+2020-06-10:22:58:25,765 INFO     [test_Methods.py:51] PUT Method status code is 200 & Json Values are read to the put output file
+2020-06-10:22:58:25,766 INFO     [test_Methods.py:59] DELETE Method status code is 204
+2020-06-10:22:58:25,766 INFO     [test_Methods.py:61] Session has Ended
+2020-06-10:22:58:25,784 DEBUG    [connectionpool.py:955] Starting new HTTPS connection (1): reqres.in:443
+2020-06-10:22:58:26,300 DEBUG    [connectionpool.py:428] https://reqres.in:443 "GET /api/users?page=2 HTTP/1.1" 200 None
+2020-06-10:22:58:26,317 DEBUG    [connectionpool.py:955] Starting new HTTPS connection (1): reqres.in:443
+2020-06-10:22:58:26,862 DEBUG    [connectionpool.py:428] https://reqres.in:443 "POST /api/users HTTP/1.1" 201 78
+2020-06-10:22:58:26,909 DEBUG    [connectionpool.py:955] Starting new HTTPS connection (1): reqres.in:443
+2020-06-10:22:58:27,546 DEBUG    [connectionpool.py:428] https://reqres.in:443 "PUT /api/users/2 HTTP/1.1" 200 None
+2020-06-10:22:58:27,566 DEBUG    [connectionpool.py:955] Starting new HTTPS connection (1): reqres.in:443
+2020-06-10:22:58:28,199 DEBUG    [connectionpool.py:428] https://reqres.in:443 "DELETE /api/users/2 HTTP/1.1" 204 0

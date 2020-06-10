@@ -1,0 +1,6 @@
+{
+  "get_link": "https://reqres.in/api/users?page=2",
+  "post_link": "https://reqres.in/api/users",
+  "put_link": "https://reqres.in/api/users/2",
+  "delete_link": "https://reqres.in/api/users/2"
+}
